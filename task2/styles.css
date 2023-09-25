@@ -1,37 +1,105 @@
-body{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(45deg,#f18f8f,#e3ebf5);
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Libre+Baskerville:wght@700&family=Poppins&family=Roboto:wght@300&family=Rye&family=Style+Script&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
-ul{
+section{
+    min-height: 100vh;
+    background-image: url("images/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+nav{
+    height: 80px;
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color:#eb7620;
+}
+nav ul{
+    float:right;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
     list-style: none;
-    margin: 0;
-    padding: 0;
+    padding: 0px 5px;
 }
-.navbar{
-    background-color:black;
-    overflow: hidden;
-}
-.navbar ul{
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-}
-.navbar li{
-    float: left;
-}
-.navbar a{
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 15px 18px;
+nav ul li a{
+    color: #fff;
     text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
 }
-.navbar a:hover{
-    background-color: aquamarine;
-    color: black;  
+nav ul li a:hover{
+    background-color: #eb7620;
+    transition: 0.5s ease;
 }
+nav ul li .active{
+    background-color: #eb7620;
+}
+.article{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+.article h1{
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+
+}
+.article h2{
+    font-size: 25px;
+    color: aqua;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.article a{
+    color: #fff;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: cornsilk;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.9;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  } 
+  .fa-github {
+    background: #05340b;
+    color: white;
+  } 
+  .fa-linkedin {
+    background: #0947ac;
+    color: white;
+  } 
+  .fa-youtube {
+    background: #e40909;
+    color: white;
+  } 
+  .fa-instagram {
+    background: #c41c6d;
+    color: white;
+  } 
