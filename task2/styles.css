@@ -1,0 +1,37 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#f18f8f,#e3ebf5);
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color:black;
+    overflow: hidden;
+}
+.navbar ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.navbar li{
+    float: left;
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: aquamarine;
+    color: black;  
+}
