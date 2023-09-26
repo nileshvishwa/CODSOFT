@@ -3,11 +3,11 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family:  'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS';
 }
 section{
     min-height: 100vh;
-    background-image: url("images/bg2.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.393),rgba(255, 255, 255, 0.393)),url("images/bg2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -24,6 +24,7 @@ nav h1{
     font-size: 35px;
     font-size: inline;
     color:#eb7620;
+    text-shadow: 1px 2px #120606;
 }
 nav ul{
     float:right;
@@ -60,14 +61,18 @@ nav ul li .active{
     letter-spacing: 1.5px;
     font-weight: 800;
     margin-bottom: 25px;
+    text-shadow: 2px 2px #2c2523;
+    text-decoration: underline;
 
 }
 .article h2{
     font-size: 25px;
-    color: aqua;
+    color: #eb7620;
+    text-decoration: none;
     letter-spacing: 0.5px;
     font-weight: 300;
     margin-bottom: 20px;
+    text-shadow: 1px 2px #141312;
 }
 .article a{
     color: #fff;
@@ -103,3 +108,39 @@ nav ul li .active{
     background: #c41c6d;
     color: white;
   } 
+
+ 
+
+
+   .mid{
+    background-image: linear-gradient(45deg, rgb(83, 202, 231) 30%, rgb(174, 24, 190));
+    height: 64vh;
+    display: flex;
+   }
+   .abouth1{
+        
+   }
+   .right h1{
+    text-align: center;
+    font-weight: 800;
+    color: azure;
+    padding-left: 130%;
+    font-family: 'Headland One', serif;
+    font-size: 40px;
+   }
+   .para{
+    width: 60vh;
+   }
+   .right{
+    margin-left: 10%;
+   }
+   .para p{
+    color: rgb(9, 15, 15);
+    font-weight: 900;
+   }
+   .left{
+   padding-left: 25%;
+   width: 35vh;
+   cursor: pointer;
+   
+   }
