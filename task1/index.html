@@ -3,46 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"href="style.css">
-    <title>CALCULATOR</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>LANDING PAGE</title>
 </head>
 <body>
-   <div class="calculator">
-    <input type= "text" placeholder="0" id="inputbox">
-    <div>
-    <button class="operator">AC</button>
-    <button class="operator">DEL</button>
-    <button class="operator">%</button>
-    <button class="operator">/</button>
-    </div>
-    <div>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button class="operator">*</button>
-    </div>
-    <div>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button  class="operator"class="operator">-</button>
-        </div>
-        <div>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button class="operator">+</button>
-        </div>
-        <div>
-            <button>00</button>
-            <button>0</button>
-            <button>.</button>
-            <button class="equal">=</button>
-            </div>
-
-   </div>
-<script src="script.js"></script>
-
     
-</body>
+    <section id="Home">
+        <div class="container">
+        <nav>
+            <h1>Landing Page</h1>
+            <ul>
+             <li><a href="#Home" class="active">Home</a></li>
+             <li><a href="#contact">Contact</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Our Services</a></li>
+           </ul>
+        </nav>
+        <div class="article">
+            <h1>Nilesh_Vishwa</h1>
+            <h2>I'm Creative Developer & Professional Photographer with Unique Skills Combinations</h2>
+            <a href="https://www.facebook.com/nilesh.rock.9404" class="fa fa-facebook"></a>
+            <a href="https://github.com/vishwanilesh09" class="fa fa-github"></a>
+            <a href="https://www.linkedin.com/in/nilesh-kumar-6bb143272/" class="fa fa-linkedin"></a>
+            <a href="https://www.youtube.com/@nilesh__vishwa" class="fa fa-youtube"></a>
+            <a href="https://www.instagram.com/nilesh__vishwa/" class="fa fa-instagram"></a>
+        </div>
+        </div>
+    </section>
+       
+
+    <section id="about">
+
+        <div class="mid">
+
+            <div class="right">
+
+        <div class="abouth1">
+            <h1>
+                About
+            </h1>
+        </div>
+        <div class="para">
+            <p>
+                As a front-end developer, I am passionate about creating engaging and user-friendly web experiences. With a strong foundation in HTML, CSS, and JavaScript, I bring creativity and technical expertise to every project I tackle. My journey in web development began several years ago, and I've since honed my skills through hands-on experience and continuous learning.In addition to my technical skills, I am a problem solver who enjoys tackling challenges head-on. Whether it's
+                optimizing website performance, enhancing user interactions, or troubleshooting issues, I approach every task with
+                enthusiasm and a commitment to delivering high-quality results
+            </p>
+        </div>
+    </div>
+
+    <div class="left">
+        <img src="images/about1.png" alt="">
+    </div>
+    </div>
+    <div class="service">
+        <h1>
+            Our Services
+        </h1>
+            <p>
+                Photography, Videography,Website Design,Professional Editing 
+            </p>
+       
+
+    </div>
+</section>
+<section id="services">
+    <div class="row">
+        <div class="column">
+          <img src="images/1.jpeg">
+          <img src="images/15.jpg">
+          <img src="images/12.jpg">
+          <img src="images/14.jpg">
+          <img src="images/11.jpg">
+          <img src="images/13.jpg">
+        </div>
+</section>
+<section id="contact">
+    <div class="contact">
+        <div class="contactbox">
+            <h2>
+                Contact Me
+            </h2>
+                <form>
+                    <div class="row">
+                        <div class="input-group">
+                            <input type="text" id="name" required>
+                            <label for="name"> Your Name </label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" id="number" required>
+                            <label for="numbre">Phone no. </label>
+                        </div>
+                    </div>
+                  
+                    <div class="input-group">
+                        <input type="email" id="email" required>
+                        <label for="email">Gmail </label>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="massage" rows="8" required></textarea>
+                        <label for="message">Your Message </label>
+                    </div>
+                    <button type="submit">Submit</button>
+                 
+                </form>
+
+            </div>
+        </div>
+    </div>
+</section>
+    
+      
+    </body>
 </html>
